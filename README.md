@@ -1,8 +1,10 @@
-# job-search — a Claude Code skill
+# mr-meeseeks-jobs — a Claude Code skill
+
+<img src="assets/meeseeks.svg" alt="Ooh, I'm Mr. Meeseeks! Look at me!" width="640">
 
 An unattended job-application agent for [Claude Code](https://claude.com/claude-code) + [Claude in Chrome](https://www.anthropic.com/news/claude-in-chrome).
 
-You kick off a batch and walk away. It discovers roles on job boards, screens each
+You summon it, it fills out your job applications, and then it's at peace. You kick off a batch and walk away. It discovers roles on job boards, screens each
 one against your verified profile with a 100-point rubric, tailors a resume and
 cover letter, fills out the employer's application in its own browser tab, and
 tracks everything in a markdown table. **It never clicks Submit** — you review the
@@ -16,7 +18,7 @@ Adapted from [joliverson/direct-job-application-agent](https://github.com/jolive
 ## Install
 
 ```bash
-git clone <this repo> ~/.claude/skills/job-search
+git clone https://github.com/fregas/mr-meeseeks-jobs.git ~/.claude/skills/job-search
 cd ~/.claude/skills/job-search
 mkdir -p private/resumes private/out
 cp references/profile.template.md     private/profile.md
