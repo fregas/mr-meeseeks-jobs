@@ -1,6 +1,6 @@
 # mr-meeseeks-jobs — a Claude Code skill
 
-<img src="assets/meeseeks.png" alt="Ooh, I'm Mr. Meeseeks! Look at me!" width="640">
+<img src="assets/character.jpg" alt="Ooh, I'm Mr. Meeseeks! Look at me!" width="640">
 
 An unattended job-application agent for [Claude Code](https://claude.com/claude-code) + [Claude in Chrome](https://www.anthropic.com/news/claude-in-chrome).
 
