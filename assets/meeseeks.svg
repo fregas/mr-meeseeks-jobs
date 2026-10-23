@@ -1,23 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" width="640" height="220" role="img" aria-label="A tall blue figure beside the words 'Ooh, I'm Mr. Meeseeks! Look at me!'">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" width="640" height="220" role="img" aria-label="A skinny blue stick figure with a round head beside the words 'Ooh, I'm Mr. Meeseeks! Look at me!'">
   <rect width="640" height="220" rx="14" fill="#0e1116"/>
 
-  <!-- figure -->
-  <g transform="translate(70 24)">
-    <!-- arms -->
-    <path d="M14 78 C-14 64 -20 40 -8 26" fill="none" stroke="#5bc8e8" stroke-width="9" stroke-linecap="round"/>
-    <path d="M70 78 C98 64 104 40 92 26" fill="none" stroke="#5bc8e8" stroke-width="9" stroke-linecap="round"/>
-    <!-- legs -->
-    <path d="M30 140 L26 170" fill="none" stroke="#5bc8e8" stroke-width="9" stroke-linecap="round"/>
-    <path d="M54 140 L58 170" fill="none" stroke="#5bc8e8" stroke-width="9" stroke-linecap="round"/>
-    <!-- body -->
-    <rect x="12" y="4" width="60" height="140" rx="30" fill="#6fd3ef"/>
-    <!-- eyes -->
-    <ellipse cx="30" cy="44" rx="11" ry="13" fill="#fff"/>
-    <ellipse cx="54" cy="44" rx="11" ry="13" fill="#fff"/>
-    <circle cx="31" cy="46" r="4.5" fill="#0e1116"/>
-    <circle cx="55" cy="46" r="4.5" fill="#0e1116"/>
-    <!-- grin -->
-    <path d="M26 68 Q42 82 58 68" fill="none" stroke="#0e1116" stroke-width="4" stroke-linecap="round"/>
+  <g transform="translate(78 22)" stroke="#6fd3ef" stroke-width="7" stroke-linecap="round" fill="none">
+    <!-- round head -->
+    <circle cx="44" cy="40" r="36" fill="#6fd3ef" stroke="none"/>
+    <!-- skinny torso -->
+    <path d="M44 76 L44 142"/>
+    <!-- arms, thrown up -->
+    <path d="M44 102 L8 84"/>
+    <path d="M44 102 L80 84"/>
+    <!-- skinny legs -->
+    <path d="M44 142 L28 176"/>
+    <path d="M44 142 L60 176"/>
+    <!-- hands and feet -->
+    <g fill="#6fd3ef" stroke="none">
+      <circle cx="6" cy="83" r="6"/>
+      <circle cx="82" cy="83" r="6"/>
+      <circle cx="26" cy="178" r="6"/>
+      <circle cx="62" cy="178" r="6"/>
+    </g>
+  </g>
+
+  <!-- face -->
+  <g transform="translate(78 22)">
+    <ellipse cx="32" cy="34" rx="10" ry="12" fill="#fff"/>
+    <ellipse cx="56" cy="34" rx="10" ry="12" fill="#fff"/>
+    <circle cx="33" cy="36" r="4" fill="#0e1116"/>
+    <circle cx="57" cy="36" r="4" fill="#0e1116"/>
+    <path d="M30 56 Q44 68 58 56" fill="none" stroke="#0e1116" stroke-width="4" stroke-linecap="round"/>
   </g>
 
   <!-- text -->
